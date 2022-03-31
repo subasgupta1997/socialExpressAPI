@@ -23,7 +23,7 @@ app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/posts", postRoute);
 
-//api creation
+//api creation subas
 
 app.get("/", (req, res) => {
   res.send("welcome to homepage");
